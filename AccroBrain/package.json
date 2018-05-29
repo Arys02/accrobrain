@@ -1,9 +1,13 @@
 {
-  "name": "accro-brain",
+  "name": "accrobrain",
   "version": "0.0.0",
-  "description": "AccroBrain",
-  "main": "app.js",
+  "description": "BrainFuck interpretor binded to Accropolis discord emojis",
+  "main": "bot.js",
   "author": {
-    "name": "charl"
+    "name": "Arys"
+  },
+  "dependencies": {
+    "discord.io": "github:woor/discord.io#gateway_v6",
+    "winston": "^2.4.0"
   }
 }
